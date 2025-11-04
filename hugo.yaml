@@ -1,0 +1,25 @@
+baseURL: "https://yilu.github.io/"
+languageCode: "en"
+title: "yilu's room"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 999
+
+mainSections: ["posts"]
+
+params:
+  hideSummary: true
+  disableSpecial1stPost: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowReadingTime: false
+  ShowToc: false
+  disableAnchoredHeadings: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
